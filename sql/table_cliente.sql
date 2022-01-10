@@ -1,0 +1,9 @@
+USE hotel;
+CREATE TABLE cliente(
+	rg VARCHAR(11) NOT NULL,
+    nome VARCHAR(50) NOT NULL,
+    fone VARCHAR(12) DEFAULT NULL,
+    sexo VARCHAR(10) DEFAULT NULL,
+    PRIMARY KEY (rg)
+);
+
